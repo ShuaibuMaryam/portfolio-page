@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Hero{
+    display: grid;
+    grid-template-columns: auto 600px;
+    /* gap: 1.5rem; */
+    /* height: 100vh; */
+}
+
+.hero-left{
+    margin: 2rem 0 0 7rem;
+    padding-right: 1.5rem;
+}
+
+.brand-name{
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    letter-spacing: -0.01em;
+}
+
+.socials a img{
+    margin: 1rem 1rem 0 0;
+}
+
+.intro{
+    margin-top: 9rem;
+    line-height: 3rem;
+}
+.intro span{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #2351DC;
+}
+
+.intro p{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #2351DC;
+}
+.intro h1{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+}
+
+
+.hero-right{
+    background: #D3DCF8;
+}
+
+.hero-right-image{
+    margin-top: 2.5rem;
+    width: inherit;
+}
+
+.hero-right-image img{
+    width: 100%;
+}
+
+.hero-right-socials{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 5rem 0 0;
+}
+
+
+/*---------About---------*/
+.about{
+    text-align: center;
+    background: #F6F8FE;
+    padding-top: 8rem;
+    height: 434px;
+}
+
+.about h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+}
+
+.about p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+
+/*----------Section Heading---------*/
+.heading{
+    margin: 5rem 0 4rem 7rem;
+}
+
+.heading h1{
+    font-size: 48px;
+    line-height: 66px;
+    letter-spacing: -0.03em;
+}
+
+.heading p{
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/*--------Skills--------*/
+.skills{
+    display: grid;
+    grid-template-columns: 517px 517px;
+    gap: 40px;
+    margin: 2rem 0 0 7rem;
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill__name{
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.skill__percent{
+    width: 427px;
+    background: #D3DCF8;
+    height: 9px;
+}
+
+.skill__percent-inner{
+    height: 9px;
+    background: #2351DC;
+}
+
+/*----------Projects----------*/
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 4rem 7rem 0 7rem;
+}
+.projects > div{
+    color: #FFFFFF;
+    padding: 24.38px 0 0 38.55px;
+}
+
+.projects > div p{
+    font-size: 18px;
+}
+
+.project-link{
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.project-1{
+    grid-area: 1 / 1 / 3 / 2;
+    height: 630px;
+    background: #2351DC;
+}
+.project-2{
+    grid-area: 1 / 2 / 2 / 4;
+    height: 300px;
+    background: #0DC397;
+}
+.project-3{
+    grid-area: 2 / 2 / 3 / 3;
+    height: 310px;
+    background: #0A1842;
+}
+.project-4{
+    grid-area: 2 / 3 / 4 / 4;
+    height: 640px;
+    background: #2351DC;
+}
+.project-5{
+    grid-area: 3 / 1 / 5 / 3;
+    background: #1C41B0;
+}
+.project-6{
+    grid-area: 4 / 3 / 5 / 4;
+    height: 310px;
+    background: #2351DC;
+}
+
+/*--------Footer---------*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 403px;
+    background: #07102C;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.footer h2{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 49px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-bottom: 34px;
+}
+
+.footer-socials img{
+    padding-right: 24px;
+}
+
+.footer p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    margin-top: 24px;
+    color: #FFFFFF;
+}
